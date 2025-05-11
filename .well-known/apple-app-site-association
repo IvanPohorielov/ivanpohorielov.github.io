@@ -1,11 +1,32 @@
 {
   "applinks": {
-    "apps": [],
     "details": [
       {
-        "appID": "RBACX948TU.com.ivanpohorielov.sensetag",
-        "paths": ["*"]
+        "appIDs": [
+          "RBACX948TU.com.ivanpohorielov.sensetag"
+        ],
+        "components": [
+          {
+            "#": "no_universal_links",
+            "exclude": true,
+            "comment": "Matches any URL with a fragment that equals no_universal_links and instructs the system not to open it as a universal link."
+          },
+          {
+            "/": "/tag/*",
+            "comment": "Matches any URL with a path that starts with /buy/."
+          }
+        ]
       }
+    ]
+  },
+  "webcredentials": {
+    "apps": [
+      "RBACX948TU.com.ivanpohorielov.sensetag"
+    ]
+  },
+  "appclips": {
+    "apps": [
+      "RBACX948TU.com.ivanpohorielov.sensetag.Clip"
     ]
   }
 }
